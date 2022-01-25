@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMTP Client Area</title>
+</head>
+<style>
+    .welcome {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .backend {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #message {
+        padding-bottom: 50px;
+    }
+</style>
+<body>
+    <div class="welcome">
+        <h2>SMTP Client</h2>
+    </div> 
+    <div class="backend">
+        <form action="/send" method="post">
+            <input type="text" placeholder="Username" id="username" name="username"><br><br>
+            <input type="text" placeholder="Password" id="password" name="password"><br><br>
+            <input type="text" placeholder="From" id="from" name="from"><br><br>
+            <input type="text" placeholder="To" id="to" name="to"><br><br>
+            <input type="text" placeholder="Subject" id="subject" name="subject"><br><br>
+            <input type="text" placeholder="Message" id="message" name="message" size="100"><br><br>
+            <input type="submit" placeholder="Submit">
+        </form>
+    </div>
+</body>
+</html>
