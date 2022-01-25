@@ -16,7 +16,7 @@ A simple website with a panel to send emails via Gmail SMTP Server(Note: More se
 
 # NOTICE
 
-The username is the email of the google account you generate your App Key. Also don't forget that the password is the App key you generated.
+The username is the email of the google account you generated your App Key. Also don't forget that the password is the App key you generated.
 
 # LICENSE
 
