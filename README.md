@@ -1,22 +1,65 @@
 # SMTP-Client-Express
-A simple website with a panel to send emails via Gmail SMTP Server(Note: More services will be available soon).
+A simple website with a panel to send emails via SMTP Servers.
 
 
 # Requirements
 
 1. `NodeJS installed`.
-2. `Gmail account`.
+2. `SMTP credentials`.
 3. `Google app Password generated from Google`.
 
 # To Do
 
 1. `Install this repository.`
-2. `Edit the config.json`
-3. `open terminal and run node .`
+2. `Run npm install`.
+3. `Edit the config.json`
+4. `open terminal and run node .`
 
 # NOTICE
 
-The username is the email of the google account you generated your App Key. Also don't forget that the password is the App key you generated.
+The supported services are: 
+
+`126`.
+`163`.
+`1und1`.
+`AOL`.
+`DebugMail`.
+`DynectEmail`.
+`FastMail`.
+`GandiMail`.
+`Gmail`.
+`Godaddy`.
+`GodaddyAsia`.
+`GodaddyEurope`.
+`hot.ee`.
+`Hotmail`.
+`iCloud`.
+`mail.ee`.
+`Mail.ru`.
+`Maildev`.
+`Mailgun`.
+`Mailjet`.
+`Mailosaur`.
+`Mandrill`.
+`Naver`.
+`OpenMailBox`.
+`Outlook365`.
+`Postmark`.
+`QQ`.
+`QQex`.
+`SendCloud`.
+`SendGrid`.
+`SendinBlue`.
+`SendPulse`.
+`SES`.
+`SES-US-EAST-1`.
+`SES-US-WEST-2`.
+`SES-EU-WEST-1`.
+`Sparkpost`.
+`Yahoo`.
+`Yandex`.
+`Zoho`.
+`qiye.aliyun`.
 
 # LICENSE
 
@@ -24,4 +67,4 @@ This repository is under GPL-3.0 License.
 
 # AUTHOR
 
-The author of this project is `trojanz07`
+The author of this project is `trojanz07`.
