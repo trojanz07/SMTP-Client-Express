@@ -2,8 +2,10 @@ function sendEmail() {
     const data = require('./data/data.json')
     const nodemailer = require('nodemailer');
 
+    const config = require('../config.json')
+
     var transporter = nodemailer.createTransport({
-        service: 'Gmail',
+        service: config.service,
         auth: {
             user: data.username,
             pass: data.password
