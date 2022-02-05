@@ -6,7 +6,6 @@ A simple website with a panel to send emails via SMTP Servers.
 
 1. `NodeJS installed`.
 2. `SMTP credentials`.
-3. `Google app Password generated from Google`.
 
 # To Do
 
